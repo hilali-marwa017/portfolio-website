@@ -719,7 +719,7 @@ footer {
 
   #hero { 
     min-height: unset;
-    padding: 90px 0 20px;
+    padding-top: 0.5rem;
     align-items: flex-start;
   }
 
