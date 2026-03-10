@@ -719,9 +719,8 @@ footer {
 
   #hero { 
     min-height: unset;
-    padding: 70px 0 20px;
+    padding: 90px 0 20px;
     align-items: flex-start;
-    padding: 70px 0 20px;
   }
 
   .avatar {
