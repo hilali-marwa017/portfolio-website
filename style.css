@@ -717,7 +717,12 @@ footer {
 @media (max-width: 767px) {
   .container { padding: 0 16px; }
 
-  #hero { padding: 70px 0 20px; }
+  #hero { 
+    min-height: unset;
+    padding: 70px 0 20px;
+    align-items: flex-start;
+    padding: 70px 0 20px;
+  }
 
   .avatar {
     width: 100px;
