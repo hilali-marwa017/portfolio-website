@@ -11,23 +11,12 @@ Personal portfolio website showcasing my projects, skills, and contact informati
 - 🌙 Dark / Light mode
 - 📱 Fully responsive
 - 🎨 Clean and modern design
-- 🔗 Direct links to GitHub projects
 
 ## 🛠️ Built With
 
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome
-
-## 📁 Structure
-```
-PortfolioWebsite/
-├── index.html
-├── style.css
-└── cv/
-    └── marwa-hilali-cv.pdf
-```
 
 ## 📬 Contact
 
