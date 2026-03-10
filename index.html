@@ -13,7 +13,7 @@
   <nav class="navbar">
     <div class="container">
       <div class="nav-wrapper">
-        <a class="logo" href="#">H<span>M</span></a>
+        <a class="logo" href="hilali-marwa-portfolio.netlify.app">H<span>M</span></a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="hamburger">
           <span></span>
@@ -58,7 +58,7 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- about -->
   <section id="about">
     <div class="container">
       <div class="sec-head">
@@ -94,7 +94,7 @@
     </div>
   </section>
 
-  <!-- SKILLS -->
+  <!-- skills -->
   <section id="skills">
     <div class="container">
       <div class="sec-head">
@@ -143,7 +143,7 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- projects -->
   <section id="projects">
     <div class="container">
       <div class="sec-head">
@@ -165,7 +165,7 @@
             <span>React.js</span>
             <span>Bootstrap</span>
             <span>Axios</span>
-            <span>REST API</span>
+            <span>JSON Server</span>
           </div>
         </div>
         <div class="project-card">
@@ -180,6 +180,7 @@
           <div class="stack">
             <span>HTML5</span>
             <span>CSS3</span>
+            <span>JavaScript</span>
             <span>Bootstrap</span>
           </div>
         </div>
@@ -203,7 +204,7 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- contact -->
   <section id="contact">
     <div class="container">
       <div class="sec-head">
@@ -242,12 +243,12 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-    const btn = document.getElementById('themeToggle');
-    const icon = document.getElementById('themeIcon');
-    const root = document.documentElement;
-    const saved = localStorage.getItem('theme') || 'light';
+    const btn= document.getElementById('themeToggle');
+    const icon= document.getElementById('themeIcon');
+    const root =document.documentElement;
+    const saved = localStorage.getItem('theme') || 'light'
     root.setAttribute('data-theme', saved);
-    icon.className = saved === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    icon.className= saved === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
     btn.addEventListener('click', () => {
       const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
